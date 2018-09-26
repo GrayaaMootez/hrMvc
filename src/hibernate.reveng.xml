@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+
+	<type-mapping>
+		<sql-type jdbc-type="NUMERIC" not-null="false"
+			hibernate-type="java.lang.Long" />
+		<sql-type jdbc-type="NUMERIC" precision="1" hibernate-type="Boolean" />
+	</type-mapping>
+
+	<table-filter match-name="COUNTRIES" exclude="true" />
+	<table-filter match-name="DEPARTMENTS" exclude="true" />
+	<table-filter match-name="JOB_HISTORY" exclude="true" />
+	<table-filter match-name="JOBS" exclude="true" />
+	<table-filter match-name="LOCATIONS" exclude="true" />
+	<table-filter match-name="REGIONS" exclude="true" />
+	<table-filter match-name="EMP_DETAILS_VIEW" exclude="true" />
+    
+    
+</hibernate-reverse-engineering>

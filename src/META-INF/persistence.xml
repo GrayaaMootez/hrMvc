@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="hrMvc">
+		<class>com.tez.hrMvc.model.Actualite</class>
+		<class>com.tez.hrMvc.model.Countries</class>
+		<class>com.tez.hrMvc.model.Departments</class>
+		<class>com.tez.hrMvc.model.EmpDetailsView</class>
+		<class>com.tez.hrMvc.model.EmpDetailsViewId</class>
+		<class>com.tez.hrMvc.model.Employees</class>
+		<class>com.tez.hrMvc.model.ImagesTbl</class>
+		<class>com.tez.hrMvc.model.JobHistory</class>
+		<class>com.tez.hrMvc.model.JobHistoryId</class>
+		<class>com.tez.hrMvc.model.Jobs</class>
+		<class>com.tez.hrMvc.model.Locations</class>
+		<class>com.tez.hrMvc.model.MenuTree</class>
+		<class>com.tez.hrMvc.model.Nbrevisit</class>
+		<class>com.tez.hrMvc.model.Profil</class>
+		<class>com.tez.hrMvc.model.Regions</class>
+		<class>com.tez.hrMvc.model.UsrMen</class>
+		<class>com.tez.hrMvc.model.UsrMenTree</class>
+		<class>com.tez.hrMvc.model.UsrMenTreeId</class>
+		<class>com.tez.hrMvc.model.UsrProfilUtil</class>
+		<class>com.tez.hrMvc.model.UsrProfilUtilId</class>
+		<class>com.tez.hrMvc.model.ProfilMenuTree</class>
+		<class>com.tez.hrMvc.model.ProfilMenuTreeId</class>
+	</persistence-unit>
+</persistence>

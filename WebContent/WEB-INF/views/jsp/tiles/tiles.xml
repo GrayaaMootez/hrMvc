@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<!-- Base Definition -->
+	<definition name="base-definition"
+		template="/WEB-INF/views/jsp/tiles/defaultLayout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/jsp/tiles/menu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer"
+			value="/WEB-INF/views/jsp/tiles/footer.jsp" />
+	</definition>
+
+	<!-- Home Page -->
+	<definition name="home" extends="base-definition">
+		<put-attribute name="title" value="Welcome" />
+		<put-attribute name="body" value="/WEB-INF/views/jsp/home.jsp" />
+	</definition>
+
+	<definition name="countries/list" extends="base-definition">
+		<put-attribute name="title" value="Countries" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/jsp/countries/list.jsp" />
+	</definition>
+
+	<definition name="departments/list" extends="base-definition">
+		<put-attribute name="title" value="Departments" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/jsp/departments/list.jsp" />
+	</definition>
+
+	<definition name="employees/list" extends="base-definition">
+		<put-attribute name="title" value="Employees" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/jsp/employees/list.jsp" />
+	</definition>
+
+	<definition name="jobs/list" extends="base-definition">
+		<put-attribute name="title" value="Jobs" />
+		<put-attribute name="body" value="/WEB-INF/views/jsp/jobs/list.jsp" />
+	</definition>
+
+	<definition name="locations/list" extends="base-definition">
+		<put-attribute name="title" value="Locations" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/jsp/locations/list.jsp" />
+	</definition>
+
+	<definition name="regions/list" extends="base-definition">
+		<put-attribute name="title" value="Regions" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/jsp/regions/list.jsp" />
+	</definition>
+
+	<definition name="histJob/list" extends="base-definition">
+		<put-attribute name="title" value="hist Jobs" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/jsp/histJob/list.jsp" />
+	</definition>
+
+	<definition name="countries/show" extends="base-definition">
+		<put-attribute name="title" value="Countries" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/jsp/countries/show.jsp" />
+	</definition>
+
+	<definition name="countries/countrForm" extends="base-definition">
+		<put-attribute name="title" value="Welcome" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/jsp/countries/countrForm.jsp" />
+	</definition>
+
+	<definition name="departments/show" extends="base-definition">
+		<put-attribute name="title" value="Departments" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/jsp/departments/show.jsp" />
+	</definition>
+
+	<definition name="departments/depForm" extends="base-definition">
+		<put-attribute name="title" value="Departments" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/jsp/departments/depForm.jsp" />
+	</definition>
+
+
+	<definition name="employees/show" extends="base-definition">
+		<put-attribute name="title" value="Employees" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/jsp/employees/show.jsp" />
+	</definition>
+	
+		<definition name="histJob/show" extends="base-definition">
+		<put-attribute name="title" value="histJob" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/jsp/histJob/show.jsp" />
+	</definition>
+
+	<definition name="employees/empForm" extends="base-definition">
+		<put-attribute name="title" value="Departments" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/jsp/employees/empForm.jsp" />
+	</definition>
+
+	<definition name="jobs/show" extends="base-definition">
+		<put-attribute name="title" value="jobs" />
+		<put-attribute name="body" value="/WEB-INF/views/jsp/jobs/show.jsp" />
+	</definition>
+
+	<definition name="jobs/jobForm" extends="base-definition">
+		<put-attribute name="title" value="Jobs" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/jsp/jobs/jobForm.jsp" />
+	</definition>
+
+	<definition name="locations/show" extends="base-definition">
+		<put-attribute name="title" value="Locations" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/jsp/locations/show.jsp" />
+	</definition>
+
+	<definition name="locations/locationForm" extends="base-definition">
+		<put-attribute name="title" value="Locations" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/jsp/locations/locationForm.jsp" />
+	</definition>
+
+	<definition name="regions/show" extends="base-definition">
+		<put-attribute name="title" value="Regions" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/jsp/regions/show.jsp" />
+	</definition>
+
+	<definition name="regions/regionForm" extends="base-definition">
+		<put-attribute name="title" value="Regions" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/jsp/regions/regionForm.jsp" />
+	</definition>
+
+</tiles-definitions>
