@@ -39,17 +39,6 @@
 					<li>grayaamootez@gmail.com</li>
 				</ul>
 			</div>
-			<div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
-				<ul>
-					<li><a href="#">Help Center</a></li>
-					<li>|</li>
-					<li><a href="#">Job Listing</a></li>
-					<li>|</li>
-					<li><a href="#">Clients</a></li>
-					<li>|</li>
-					<li><a href="#">Client Reviews</a></li>
-				</ul>
-			</div>
 		</div>
 	</div>
 </div>
@@ -101,7 +90,6 @@
 									<li><a href="styleguide.html">styleguide</a></li>
 								</ul></li>
 							<li><a href="contact-us.html">Contact Us</a></li>
-							<li><a href="template-feature.html">Template Feature</a></li>
 						</ul>
 					</div>
 				</div>

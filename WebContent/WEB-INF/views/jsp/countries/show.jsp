@@ -6,39 +6,41 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
+<br />
+<br />
 <div class="container">
 
-	<c:if test="${not empty msg}">
-		<div class="alert alert-${css} alert-dismissible" role="alert">
-			<button type="button" class="close" data-dismiss="alert"
-				aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-			</button>
-			<strong>${msg}</strong>
+	<div class="panel panel-default">
+		<div class="panel-heading">User Detail</div>
+		<div class="panel-body">
+
+			<c:if test="${not empty msg}">
+				<div class="alert alert-${css} alert-dismissible" role="alert">
+					<button type="button" class="close" data-dismiss="alert"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<strong>${msg}</strong>
+				</div>
+			</c:if>
+
+			<div class="row">
+				<label class="col-sm-2">Code</label>
+				<div class="col-sm-10">${countrie.countryId}</div>
+			</div>
+
+			<div class="row">
+				<label class="col-sm-2">Libellé</label>
+				<div class="col-sm-10">${countrie.countryName}</div>
+			</div>
+
+
+			<div class="row">
+				<label class="col-sm-2">Region</label>
+				<div class="col-sm-10">${countrie.regions.regionName}</div>
+			</div>
 		</div>
-	</c:if>
-
-	<h1>User Detail</h1>
-	<br />
-
-	<div class="row">
-		<label class="col-sm-2">Code</label>
-		<div class="col-sm-10">${countrie.countryId}</div>
 	</div>
-
-	<div class="row">
-		<label class="col-sm-2">Libellé</label>
-		<div class="col-sm-10">${countrie.countryName}</div>
-	</div>
-	
-	
-		<div class="row">
-		<label class="col-sm-2">Region</label>
-		<div class="col-sm-10">${countrie.regions.regionName}</div>
-	</div>
-
-
 
 </div>
 

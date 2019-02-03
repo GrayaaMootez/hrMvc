@@ -39,17 +39,16 @@
 					<h3 class="footer-title">Contact Info</h3>
 					<div class="contact-info">
 						<span class="contact-icon"><i class="fa fa-map-marker"></i></span>
-						<span class="contact-text">1847 Goldleaf Lane River <br>
-							Edge, USA 07649
+						<span class="contact-text">Rue des Fabriques, 51, 1000, Bruxelles
 						</span>
 					</div>
 					<div class="contact-info">
 						<span class="contact-icon"><i class="fa fa-phone"></i></span> <span
-							class="contact-text">+180-123-4567 / 89</span>
+							class="contact-text">+32 (0)472 42 01 69</span>
 					</div>
 					<div class="contact-info">
 						<span class="contact-icon"><i class="fa fa-envelope"></i></span> <span
-							class="contact-text">info@demo.com</span>
+							class="contact-text">grayaamootez@gmail.com</span>
 					</div>
 					<div class="ft-social">
 						<ul>
@@ -76,15 +75,6 @@
 								<li><a href="#">Job List</a></li>
 							</ul>
 						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<ul class="arrow">
-								<li><a href="#">Contact Us</a></li>
-								<li><a href="#">Client reviews</a></li>
-								<li><a href="#">Partner</a></li>
-								<li><a href="#">Consultation</a></li>
-								<li><a href="#">Help Center</a></li>
-							</ul>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -105,9 +95,7 @@
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<p>
-						Copyright © All Rights Reserved 2020 Template Design by <a
-							href="https://easetemplate.com/" target="_blank"
-							class="copyrightlink">EaseTemplate</a>
+						sample project by Grayaa Mootez
 					</p>
 				</div>
 			</div>
